@@ -1,0 +1,22 @@
+.spotlightWrapper ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.spotlightWrapper ul li {
+    margin: 0 12px 5px 0;
+    display: inline-block;
+    position: relative;
+}
+.spotlightWrapper ul li a img {
+    width: 200px;
+    border: 4px solid #999;
+    position: relative;
+}
+.spotlightWrapper ul li a img.active {
+    border: 4px solid white;
+    z-index: 1;
+}
+.clear {
+    clear: both;
+}
